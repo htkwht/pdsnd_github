@@ -6,11 +6,12 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+			  
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
-
-    Returns:
+	
+    Returns: in lower case
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
